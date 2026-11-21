@@ -18,6 +18,8 @@ import kotlin.math.cos
 import kotlin.math.sin
 import kotlin.random.Random
 
+private class Star(val x: Float, val y: Float, val base: Float, val phase: Float, val size: Float)
+
 /**
  * Live wallpaper: sky color, sun and moon follow the phone clock over 24 hours.
  * Sun is up 05:00-19:00, moon is up 17:00-07:00.
@@ -31,8 +33,6 @@ class SunMoonWallpaperService : WallpaperService() {
         private val handler = Handler(Looper.getMainLooper())
         private var visible = false
         private var offsetX = 0.5f
-
-        private class Star(val x: Float, val y: Float, val base: Float, val phase: Float, val size: Float)
 
         private val rnd = Random(42)
         private val stars = List(110) {
