@@ -1,5 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">সূর্য চাঁদ আকাশ</string>
-    <string name="wallpaper_description">সূর্য ও চাঁদ ওঠা-নামার লাইভ ওয়ালপেপার</string>
+    <string name="app_name">আকাশ ওয়ালপেপার</string>
+
+    <string name="wp_hills_name">সূর্য-চাঁদ ও পাহাড়ি টিলা</string>
+    <string name="wp_hills_desc">সূর্য ও চাঁদ ওঠা-নামা, ভাসমান মেঘ আর রাতে উল্কা</string>
+
+    <string name="wp_sea_name">সাগর ও আকাশ</string>
+    <string name="wp_sea_desc">সাগরের ঢেউ, পানিতে সূর্য-চাঁদের ঝিলিক আর পাল তোলা নৌকা</string>
+
+    <string name="wp_village_name">গ্রামবাংলার আকাশ</string>
+    <string name="wp_village_desc">ধানক্ষেত, কুঁড়েঘর, দোলায়িত নারকেল গাছ আর রাতে জোনাকি</string>
+
+    <string name="wp_mountain_name">পাহাড় ও মেরুজ্যোতি</string>
+    <string name="wp_mountain_desc">বরফ ঢাকা পাহাড়, পাইন বন আর রাতে রঙিন আকাশের আলো</string>
 </resources>
